@@ -10,8 +10,8 @@ debian:
 rm-debian:
 	docker rmi hello-world-debian --force
 
-stratch:
-	docker build . -t hello-world-stratch -f stratch.dockerfile
+scratch:
+	docker build . -t hello-world-scratch -f scratch.dockerfile
 
-rm-stratch:
-	docker rmi hello-world-stratch --force
+rm-scratch:
+	docker rmi hello-world-scratch --force
